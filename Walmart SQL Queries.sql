@@ -26,7 +26,7 @@ SHOW GLOBAL VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = 1;
 
 LOAD DATA LOCAL INFILE 
-'/Users/mohammedshehbazdamkar/Downloads/WalmartSalesData.csv.csv'
+'C:\GITHUBPROJECTS\Walmart-Sales-Data-Analysis--SQL-Project\WalmartSalesData.csv.csv'
 INTO TABLE sales
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
